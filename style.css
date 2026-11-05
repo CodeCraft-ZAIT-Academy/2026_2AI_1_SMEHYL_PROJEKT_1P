@@ -214,6 +214,48 @@ header {
     font-family: A1Graffiti;
 }
 
+.bike-list {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    height: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+}
+
+.bike {
+    border: 1px solid black;
+    padding: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.bike:hover {
+    background-color: #F7F7F7;
+    cursor: pointer;
+    transition: 0.3s ease;
+    transform: scale(1.04) translateY(-3px);
+    z-index: 2;
+}
+
+.bike-choose-h {
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px;
+    font-size: 2cqw;
+}
+
+.bike-choose-img {
+    position: absolute;
+    width: 35%;
+    left: 3%;
+    top: 20%;
+}
 
 /* ==================================================
    BIKE COMPARISON SLIDER
