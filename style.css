@@ -73,6 +73,7 @@ header {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 5px;
+    text-decoration: none;
 }
 
 .header-button {
@@ -83,6 +84,11 @@ header {
 
     font-size: 30cqh;
     font-family: 'A1Graffiti', sans-serif;
+
+    position: absolute;
+    top: 30cqh; 
+    padding: 1%; 
+    text-decoration: none;
 }
 
 .header-button:hover {
@@ -99,6 +105,14 @@ header {
 /* ==================================================
    HERO / SHOWROOM
    ================================================== */
+.bike-card-details {
+    position: absolute;
+    left: 45%;
+    font-size: 1cqw;
+}
+.bike-card-header {
+    font-size: 
+}
 
 .container {
     display: flex;
@@ -252,10 +266,12 @@ header {
 
 .bike-choose-img {
     position: absolute;
-    width: 35%;
     left: 3%;
     top: 20%;
+    width: 35%;
 }
+
+
 
 /* ==================================================
    BIKE COMPARISON SLIDER
