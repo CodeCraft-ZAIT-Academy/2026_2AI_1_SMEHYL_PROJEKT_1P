@@ -17,6 +17,20 @@
 body {
     margin: 0;
     background-color: #e0e0e0;
+    min-height: 100dvh;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+main {
+    min-height: calc(100dvh - 16vh);
 }
 
 
@@ -47,8 +61,9 @@ body {
 
 header {
     display: flex;
-    justify-content: top;
-    align-items: top;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     position: relative;
 
     background-color: black;
@@ -85,10 +100,14 @@ header {
     font-size: 30cqh;
     font-family: 'A1Graffiti', sans-serif;
 
-    position: absolute;
-    top: 30cqh; 
-    padding: 1%; 
+    padding-right: 2cqw; 
     text-decoration: none;
+    display: inline-block;
+
+    transition:
+        transform 0.25s ease,
+        background-color 0.25s ease,
+        color 0.25s ease;
 }
 
 .header-button:hover {
@@ -190,6 +209,11 @@ header {
     box-shadow: 0 0 20px 1px black;
 
     top: 5%;
+
+    transition:
+        transform 0.25s ease,
+        background-color 0.25s ease,
+        color 0.25s ease;
 }
 
 .card:after {
@@ -203,6 +227,14 @@ header {
 
     box-shadow: inset 0 0 20px 10px black;
 } 
+
+.card:hover {
+    cursor: pointer;
+
+    transition: 0.3s ease;
+
+    transform: scale(1.04) translateY(-3px);
+}
 .cardimg {
     filter: blur(2px);
 
@@ -353,28 +385,42 @@ header {
    ================================================== */
 
 .modify-button {
-    display: block;
+    display: grid;
 
     margin: auto auto;
 
     border-radius: 10px;
 
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 1cqw;
     font-weight: 600;
 
     background-color: transparent;
 
     box-shadow: 0 0px 5px 0px gray;
 
+    aspect-ratio: 17 / 8; 
+    width: 10vw; 
+    height: 5vw; 
+    border: 1px solid black; 
+    margin-bottom: 2%; 
+    container-type: size; 
+    text-decoration: none; 
+    color: inherit; 
+    place-items: center;
+    
+    
+    
     transition:
         transform 0.25s ease,
         background-color 0.25s ease,
         color 0.25s ease;
+
+    
 }
 
 .modify-button:hover {
-    color: white;
+    color: black;
 
     box-shadow: 0px 0px 8px 2px gray;
 
