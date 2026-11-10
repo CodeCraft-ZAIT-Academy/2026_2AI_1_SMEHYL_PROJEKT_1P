@@ -304,7 +304,15 @@ header {
 }
 
 
+.build-card-img {
+    width: 30%;
+    object-fit: cover;
+}
 
+.build-card p {
+    font-size: 2cqw;
+    margin: 0px;
+}
 /* ==================================================
    BIKE COMPARISON SLIDER
    ================================================== */
