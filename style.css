@@ -313,6 +313,104 @@ header {
     font-size: 2cqw;
     margin: 0px;
 }
+
+.configurator_p {
+    font-size: 1cqw; 
+    margin: 0; 
+    padding: 2px;
+}
+
+.configurator_p_holder {
+    display: flex; 
+    width: 90%; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin-left: 2cqw;
+}
+
+.configurator_h {
+    font-size: 1.5cqw; 
+    margin: 0; 
+    padding: 2px;
+}
+
+.configurator_button {
+    padding: 0; 
+    display: flex; 
+    flex-direction: row; 
+    width: 100%; 
+    height: 20%; 
+    border: 1px solid black; 
+    background: none; 
+    justify-content: space-between;
+}
+
+.configurator_desc_holder {
+    width: 100%;
+}
+
+.configurator_img {
+    width: 20%; 
+    height: 100%;
+}
+
+.configurator_main_hero {
+    display: flex; 
+    width: 100%; 
+    height: 30vw; 
+    border: 1px solid black; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
+
+.configurator_main_hero_img {
+    border: 1px solid black; 
+    width: 40cqw; 
+    height: 35cqh; 
+    border-radius: 5%; 
+    margin-top: 2cqh;
+}
+
+.configurator_main_h {
+    font-size: 3vw; 
+    font-family: A1Graffiti, sans-serif;
+}
+
+.configurator {
+    display: flex; 
+    border: 1px solid black; 
+    width: 100%; 
+    height: 30vw; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+.configurator_leftpart {
+    border: 1px solid black; 
+    width: 30%; 
+    height: 90%; 
+    margin-left: 2cqw;
+}
+
+.configurator_leftpart_h {
+    font-family: A1Graffiti, sans-serif; 
+    font-size: 3vw; 
+    margin: 0;
+}
+
+.configurator_leftpart_img {
+    border: 1px solid black; 
+    width: 100%; 
+    height: 89%;
+}
+
+.configurator_rightpart_list {
+    border: 1px solid black; 
+    width: 60%; 
+    height: 90%; 
+    margin-right: 2cqw;
+}
 /* ==================================================
    BIKE COMPARISON SLIDER
    ================================================== */
