@@ -7,7 +7,7 @@
     <link rel="icon" type="image/webp" href="Logo/Logo.webp" sizes="16x16">
     <title>Configurator</title>
 </head>
-<body style="height: 100vh; width: 100vw;">
+<body>
     
     <!-- Header Section -->
     <header>
@@ -17,20 +17,113 @@
          <button class="header-button" style="position: absolute; right: 250px; top: 23px;"><a href="configurator.html" style="text-decoration: none; color: inherit;">configurator</a></button>
     </header>
 
-    <hero>
+    <main class="load-in">
         
-       <div style="width: 100vw; height: auto;">
-           <img src="" alt="selected bike" id="selected-bike-img" style="border: 1px solid black; position: absolute; width: 50%; height: 50%; top: 10%; left: 25%; border-radius: 5%; object-fit: cover;"> 
-           <p id="bikeName" style="position: absolute; font-size: 3vw; top: 55%; left: 50%; transform: translate(-50%); font-family: A1Graffiti, sans-serif;">Your Motorcycle</p>
-
+       <div style="display: flex; width: 100%; height: 30vw; border: 1px solid black; justify-content: center; align-items: center; flex-direction: column;">
+           <img src="/choose_bike/huskysm.webp" alt="selected bike" id="selected-bike-img" style="border: 1px solid black; width: 40cqw; height: 35cqh; border-radius: 5%; margin-top: 2cqh;"> 
+           <p id="bikeName" style="font-size: 3vw; font-family: A1Graffiti, sans-serif;">Your Motorcycle</p>
        </div>
-       
-       <p style="font-family: A1Graffiti, sans-serif; font-size: 3vw; position: absolute; top: 67%; left: 3%;">EXHAUST</p>
-       <img alt="exhaust" id="exhaust-img" style="position: absolute; border: 1px solid black; width: 35%; height: 40%; top: 80%; left: 3%;">
+       <div style="display: flex; border: 1px solid black; width: 100%; height: 30vw; flex-direction: row; justify-content: space-between;">
+        <div style="border: 1px solid black; width: 30%; height: 90%; margin-left: 2cqw;">
+            <p style="font-family: A1Graffiti, sans-serif; font-size: 3vw; margin: 0">EXHAUST</p>
+            <img src="/cards/exhaust-card.png" alt="exhaust" id="exhaust-img" style="border: 1px solid black; width: 100%; height: 89%;">
+        </div>   
+        <div style="border: 1px solid black; width: 60%; height: 90%; margin-right: 2cqw;">
+            <button style="padding: 0; display: flex; flex-direction: row; width: 100%; height: 20%; border: 1px solid black; background: none; justify-content: space-between;">
+                <img src="placeholder.webp" style="width: 20%; height: 100%;">
+                <div style="width: 100%">
+                    <p style="font-size: 1.5cqw; margin: 0; padding: 2px;"><b>Placeholder Exhaust Name</b></p>
+                   <div style="display: flex; width: 90%; flex-direction: row; justify-content: space-between; margin-left: 2cqw;">
+                       <p style="font-size: 1cqw; margin: 0;padding: 2px;">Material: carbon fiber</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">exhaust type: slip on</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">street legal: no</p>
+                   </div>
+                   <div style="display: flex; width: 90%; flex-direction: row; justify-content: space-between; margin-left: 2cqw;">
+                       <p style="font-size: 1cqw; margin: 0;padding: 2px;">Sound: Aggressive / loud</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">weight: 1.8 kg</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">Price: free.99$</p>
+                   </div>
+                </div>
+            </button>
+            <button style="padding: 0; display: flex; flex-direction: row; width: 100%; height: 20%; border: 1px solid black; background: none; justify-content: space-between;">
+                <img src="placeholder.webp" style="width: 20%; height: 100%;">
+                <div style="width: 100%">
+                    <p style="font-size: 1.5cqw; margin: 0; padding: 2px;"><b>Placeholder Exhaust Name</b></p>
+                   <div style="display: flex; width: 90%; flex-direction: row; justify-content: space-between; margin-left: 2cqw;">
+                       <p style="font-size: 1cqw; margin: 0;padding: 2px;">Material: carbon fiber</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">exhaust type: slip on</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">street legal: no</p>
+                   </div>
+                   <div style="display: flex; width: 90%; flex-direction: row; justify-content: space-between; margin-left: 2cqw;">
+                       <p style="font-size: 1cqw; margin: 0;padding: 2px;">Sound: Aggressive / loud</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">weight: 1.8 kg</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">Price: free.99$</p>
+                   </div>
+                </div>
+            </button>
+            <button style="padding: 0; display: flex; flex-direction: row; width: 100%; height: 20%; border: 1px solid black; background: none; justify-content: space-between;">
+                <img src="placeholder.webp" style="width: 20%; height: 100%;">
+                <div style="width: 100%">
+                    <p style="font-size: 1.5cqw; margin: 0; padding: 2px;"><b>Placeholder Exhaust Name</b></p>
+                   <div style="display: flex; width: 90%; flex-direction: row; justify-content: space-between; margin-left: 2cqw;">
+                       <p style="font-size: 1cqw; margin: 0;padding: 2px;">Material: carbon fiber</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">exhaust type: slip on</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">street legal: no</p>
+                   </div>
+                   <div style="display: flex; width: 90%; flex-direction: row; justify-content: space-between; margin-left: 2cqw;">
+                       <p style="font-size: 1cqw; margin: 0;padding: 2px;">Sound: Aggressive / loud</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">weight: 1.8 kg</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">Price: free.99$</p>
+                   </div>
+                </div>
+            </button>
+            <button style="padding: 0; display: flex; flex-direction: row; width: 100%; height: 20%; border: 1px solid black; background: none; justify-content: space-between;">
+                <img src="placeholder.webp" style="width: 20%; height: 100%;">
+                <div style="width: 100%">
+                    <p style="font-size: 1.5cqw; margin: 0; padding: 2px;"><b>Placeholder Exhaust Name</b></p>
+                   <div style="display: flex; width: 90%; flex-direction: row; justify-content: space-between; margin-left: 2cqw;">
+                       <p style="font-size: 1cqw; margin: 0;padding: 2px;">Material: carbon fiber</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">exhaust type: slip on</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">street legal: no</p>
+                   </div>
+                   <div style="display: flex; width: 90%; flex-direction: row; justify-content: space-between; margin-left: 2cqw;">
+                       <p style="font-size: 1cqw; margin: 0;padding: 2px;">Sound: Aggressive / loud</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">weight: 1.8 kg</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">Price: free.99$</p>
+                   </div>
+                </div>
+            </button>
+            <button style="padding: 0; display: flex; flex-direction: row; width: 100%; height: 20%; border: 1px solid black; background: none; justify-content: space-between;">
+                <img src="placeholder.webp" style="width: 20%; height: 100%;">
+                <div style="width: 100%">
+                    <p style="font-size: 1.5cqw; margin: 0; padding: 2px;"><b>Placeholder Exhaust Name</b></p>
+                   <div style="display: flex; width: 90%; flex-direction: row; justify-content: space-between; margin-left: 2cqw;">
+                       <p style="font-size: 1cqw; margin: 0;padding: 2px;">Material: carbon fiber</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">exhaust type: slip on</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">street legal: no</p>
+                   </div>
+                   <div style="display: flex; width: 90%; flex-direction: row; justify-content: space-between; margin-left: 2cqw;">
+                       <p style="font-size: 1cqw; margin: 0;padding: 2px;">Sound: Aggressive / loud</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">weight: 1.8 kg</p>
+                       <p style="font-size: 1cqw; margin: 0; padding: 2px;">Price: free.99$</p>
+                   </div>
+                </div>
+            </button>
+            <div>
+
+            </div>
+         
+        </div>
+       </div>
         
        
-    </hero>
+    </main>
 
+    <footer style="background-color: black; width: 100%; height: 10vh; text-align: center; color: white; container-type: size; margin: 0;">
+    
+        <p style="padding-top: 13px; font-size: 30cqh;">© 2026 A1 Customs. All rights reserved.</p>
+
+    </footer>
 
     
 </body>
